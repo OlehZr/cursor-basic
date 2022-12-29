@@ -10,7 +10,7 @@ body {
     height: 133px;
 }
 .accept-cookie {
-    width: 1440px;
+    max-width: 1440px;
     height: 72px;
     background-color: #0B2239;
     margin-bottom: 24px;
@@ -20,7 +20,7 @@ body {
     gap: 42px;
 }
 .use-cookie {
-    width: 1440px;
+    max-width: 1440px;
     height: 52px;
     background-color: #2B2627;
     display: flex;
