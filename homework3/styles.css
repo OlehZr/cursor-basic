@@ -39,6 +39,11 @@ body {
     border: none;
     width: 130px;
     height: 36px;
+    cursor: pointer;
+}
+.right-btn:hover {
+    background: #4AD295;
+    opacity: 0.8;
 }
 .left-btn {
     color: #4AD295;
@@ -48,6 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: underline;
+    cursor: pointer;
 }
 .buttons {
     display: flex;
@@ -63,6 +69,7 @@ body {
 }
 .decoration {
     text-decoration: underline;
+    cursor: pointer;
 }
 .container {
     display: flex;
@@ -82,6 +89,7 @@ body {
 }
 .colortext {
     color: #EA4C89;
+    cursor: pointer;
 }
 .textform3 {
     width: 347px;
@@ -90,12 +98,17 @@ body {
 }
 .left-btn2 {
     border-radius: 8px;
-    background-color: #0D0C22 5%;
+    background-color: rgba(13,12,34,0.05);
     border: none;
     color: #0D0C22;
     width: 63px;
     height: 28px;
     font-size: 12px;
+    cursor: pointer;
+}
+.left-btn2:hover {
+    background: rgba(13,12,34,0.05);
+    opacity: 0.8;
 }
 .right-btn2 { 
     border-radius: 8px;
@@ -105,6 +118,11 @@ body {
     width: 52px;
     height: 28px;
     font-size: 12px;
+    cursor: pointer;
+}
+.right-btn2:hover {
+    background: #EA4C89;
+    opacity: 0.8;
 }
 .bottom-box {
     width: 560px;
@@ -117,6 +135,7 @@ body {
 }
 .colortext2{
     color: #E6842E;
+    cursor: pointer;
 }
 .textform4 {
     color: #FFFFFF;
@@ -132,6 +151,11 @@ body {
     color: #26262B;
     background-color: #FFFFFF;
     font-size: 12px;
+    cursor: pointer;
+}
+.rightbtn:hover {
+    background: #FFFFFF;
+    opacity: 0.8;
 }
 .conteiner2 {
     display: flex;
@@ -168,6 +192,7 @@ body {
 }
 .policy {
     text-decoration: underline;
+    cursor: pointer;
 }
 .form {
     display: flex;
@@ -177,6 +202,7 @@ body {
     }
 .preferences {
     color: #FFFFFF;
+    cursor: pointer;
 }
 .btn {
     border: none;
@@ -185,6 +211,11 @@ body {
     color: #FFFFFF;
     width: 85px;
     height: 32px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #09B3AF;
+    opacity: 0.8;
 }
 .right-box {
     width: 328px;
@@ -225,6 +256,11 @@ body {
     height: 32px;
     background-color: #EAF0F4;
     color: #687F8C;
+    cursor: pointer;
+}
+.btn-manage:hover {
+    background: #EAF0F4;
+    opacity: 0.8;
 }
 .btn-accept {
     border-radius: 6px;
@@ -233,6 +269,11 @@ body {
     height: 32px;
     background-color: #40C1A7;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-accept:hover {
+    background: #40C1A7;
+    opacity: 0.8;
 }
 .conteiner3 {
     display: flex;
@@ -274,6 +315,11 @@ body {
     background-color: #4A7EFF;
     color: #FFFFFF;
     font-size: 16px;
+    cursor: pointer;
+}
+.btn-accept2:hover {
+    background: #4A7EFF;
+    opacity: 0.8;
 }
 .privacy-policy {
     background-color: #FFFFFF;
@@ -303,6 +349,7 @@ body {
     width: 95px;
     height: 17px;
     color: #6666FF;
+    cursor: pointer;
 }
 .btn-accept3 {
     border: none;
@@ -311,4 +358,9 @@ body {
     height: 33px;
     background-color: #6666FF;
     color: #FFFFFF;
+    cursor: pointer;
+}
+.btn-accept3:hover {
+    background: #6666FF;
+    opacity: 0.8;
 }
