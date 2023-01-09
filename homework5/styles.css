@@ -3,8 +3,7 @@ body {
     font-family: 'Roboto Serif';
     font-size: 14px;
 }
-table, tr {
-    border: 1px solid #979797;
+tr, table {
     color: #ffffff;
     border-collapse: collapse;
 }
@@ -57,10 +56,12 @@ td {
 #name-2 {
     width: 360px;
 }
+#name-3 {
+    width: 360px;
+}
 #date-1, #date-2 {
     width: 200px;
 }
-
 #date-3 {
     width: 150px;
 }
@@ -115,4 +116,23 @@ td {
 }
 #box-1, #box-2, #box-3 {
     cursor: pointer;
+}
+#file-inbox, #file-inbox2, #file-inbox3 {
+    display: flex;
+    align-items: center;
+}
+.archive, .archive2, .archive3 {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.table-1, .table-2, .table-3 {
+    width: 800px;
+    height: 200px;
+    border: 1px solid #979797;
+    border-radius: 5px;
+}
+.border-1, .border-2, .border-3, .border-4, .border-5, .border-6, .border-7, .border-8, .border-9 {
+    border-top: 1px solid #979797;
 }
