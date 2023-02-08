@@ -169,6 +169,7 @@ header {
     background-image: url(../images/SAMPLE05.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 .get-started {
     padding: 217px 0px 171px 162px;
@@ -336,6 +337,8 @@ header {
 .sports-logo {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 79px;
     margin: 58px 0px 68px 0px;
 }
@@ -346,6 +349,8 @@ header {
     width: 50%;
     background-image: url(../images/Premier-League.svg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .right-side {
     flex-basis: 50%;
