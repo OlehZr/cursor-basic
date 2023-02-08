@@ -1,0 +1,594 @@
+header {
+    background: #F4F6F9;
+    display: flex;
+}
+.ball {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    padding: 63px 0px 164px 163px;  
+    flex-basis: 45%;
+}
+.title {
+    font-family: 'Product Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #5282F0;
+}
+.info {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #333333;
+    margin-top: 15%;
+}
+.paragraph {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #4F4F4F;
+}
+.mobile-block {
+    flex-basis: 60%;
+}
+.phones {
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 20px;
+}
+.btn-1 {
+    background: #000000;
+    width: 156px;
+    height: 47px;
+    border-radius: 7.34px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    padding: 5px 0px 5px 12px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.btn-1:hover, .btn-2:hover {
+    background: #000000;
+    opacity: 0.8;
+}
+.download {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+}
+.store {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 4.5px;
+}
+.info-btn {
+    text-align: start;
+}
+.btn-2 {
+    background: #000000;
+    width: 156px;
+    height: 47px;
+    border-radius: 7.34px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.play {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+}
+.container-2 {
+    display: flex;
+    flex-direction: row;
+}
+.foto-ronaldo {
+    background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(../images/ronaldo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55%;
+    padding-left: 163px;
+    box-sizing: border-box;
+    position: relative;
+}
+.match-notifications {
+    width: 65%;
+    position: absolute;
+    left: 14%;
+    top: 15%;
+    z-index: 2;
+    cursor: pointer;
+}
+.match {
+    width: 50%;
+    position: absolute;
+    left: 38%;
+    top: 51%;
+    z-index: 1;
+    cursor: pointer;
+}
+.football-experience {
+    flex-basis: 50%;
+    padding: 133px 217px 117px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.about-title {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00ADEE;
+    cursor: pointer;
+}
+.title-2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+.paragraph-2 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4F4F4F;
+}
+.container-3 {
+    background-image: url(../images/SAMPLE05.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-started {
+    padding: 217px 0px 171px 162px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.learn {
+    margin-top: 27px;
+}
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/fon-blue-color.svg);
+    padding: 76px 166px 66px 163px;
+    box-sizing: border-box;
+}
+.top-box {
+    display: flex;
+    justify-content: center;
+}
+.tailor {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+.bottom-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 90px;
+    justify-content: center;
+}
+.left-box, .center-box, .right-box {
+    display: flex;
+    flex-direction: column;
+}
+.center-box {
+    gap: 30px;
+}
+.left-box {
+    gap: 65px;
+}
+.right-box {
+    gap: 50px;
+}
+.info-card {
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.container-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 68px;
+}
+.head-5 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+.container-6 {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.slider-box {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+    margin-top: 63px;
+    position: relative;
+}
+.slider-1 {
+    width: 309px;
+    height: 161px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 13px 24px 17px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.info-slider {
+    margin-top: 18px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+.left {
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+}
+.right {
+    background: linear-gradient(270deg, #FFFFFF 49.84%, rgba(255, 255, 255, 0) 126.7%);
+}
+.title-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-part {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.part-name {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+.info-slider2 {
+    margin-top: 48px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #4F4F4F;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 47px 0px 50px 0px;
+    cursor: pointer;
+}
+.arrow-left {
+    position: absolute;
+    left: 245px;
+    top: 55px;
+    cursor: pointer;
+}
+.arrow-right {
+    position: absolute;
+    right: 245px;
+    top: 55px;
+    cursor: pointer;
+}
+.container-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFA;
+}
+.head-7 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 57px;
+}
+.sports-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 79px;
+    margin: 58px 0px 68px 0px;
+}
+.container-8 {
+    display: flex;
+}
+.left-side {
+    width: 50%;
+    background-image: url(../images/Premier-League.svg);
+    background-repeat: no-repeat;
+}
+.right-side {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 105px 0px 98px 25px;
+    box-sizing: border-box;
+}
+.title-8 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+}
+.paragraph-8 {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4F4F4F;
+    margin-top: 20px;
+}
+.container-9 {
+    background: #00ADEE;
+    padding: 50px 162px 50px 163px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.title-9 {
+    font-family: 'Product Sans';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.white-ball {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+}
+.li-style {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+.icons {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .mobile-block {
+        display: none;
+    }
+    .container-1 {
+        padding: 34px 0px 59px 0px;
+        box-sizing: border-box;
+        flex-basis: 100%;
+        align-items: center;
+    }
+    .info {
+        text-align: center;
+    }
+    .paragraph {
+        text-align: center;
+    }
+    .container-2 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .foto-ronaldo {
+        background: linear-gradient(180deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5) url(../images/ronaldo.svg); 
+        background-size: cover;
+        width: 100%;
+        height: 360px;
+    }
+    .match-notifications {
+        width: 60%;
+        left: 2%;
+        top: 5%;
+    }
+    .match {
+        width: 45%;
+        left: 28%;
+        top: 50%;
+    }
+    .football-experience {
+        flex-basis: 100%;
+        align-items: center;
+        padding: 54px 0px 63px 0px;
+        box-sizing: border-box;
+    }
+    .title-2 {
+        text-align: center;
+    }
+    .paragraph-2 {
+        text-align: center;
+    }
+    .container-3 {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+    }
+    .get-started {
+        padding: 62px 0px 0px 0px;
+        align-items: center;
+    }
+    .media-device {
+        width: 100%;
+        height: 565px;
+        background-image: url(../images/device2.svg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .sports-logo {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container-4 {
+        background: #FAFAFA;
+        padding: 42px 0px 69px 0px;
+        box-sizing: border-box;
+    }
+    .tailor {
+        text-align: center;
+        color: #333333;
+    }
+    .bottom-box {
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+        justify-content: center;
+    }
+    .left-box, .center-box, .right-box {
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+        text-align: center;
+    }
+    .info-card {
+        color: #4F4F4F;
+    }
+    .bg-icon {
+        fill: #00ADEE;
+    }
+    .buttons {
+        gap: 20px;
+    }
+    .btn-1, .btn-2 {
+        width: 146px;
+        height: 44px;
+        padding: 5px 5px 5px 5px;
+        box-sizing: border-box;
+    }
+    .container-8 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left-side {
+        width: 100%;
+        height: 261px;
+        background-size: contain;
+    }
+    .right-side {
+        text-align: center;
+        padding: 20px 0px 40px 0px;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    .container-9 {
+        padding: 10% 0% 10% 5%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 18px;
+        align-items: flex-start;
+    }
+    .white-ball {
+        order: 2;
+    }
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        order: 3;
+        margin-top: 16px;
+    }
+    .footer-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+        order: 1;
+    }
+    .head-7 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 360px) {
+    .match-notifications {
+        width: 60%;
+        left: 23%;
+        top: 23%;
+    }
+    .match {
+        width: 45%;
+        left: 47%;
+        top: 50%;
+    }
+    .media-device {
+        width: 100%;
+        height: 565px;
+        background-image: url(../images/device2.svg);
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-box {
+        gap: 2%;
+    }
+    .container-9 {
+        padding: 10% 0% 10% 2%;
+    }
+}
