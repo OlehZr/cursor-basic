@@ -1,0 +1,108 @@
+.box {
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+    position: relative;
+}
+.actions {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.knife-blue, .knife-green, .knife-red {
+    width: 350px;
+    height: 20px;
+    transition: transform 0.5s;
+}
+.knife-green {
+    border: 2px solid green;
+    background-color: gray;
+    box-shadow: 0px 0px 20px green;
+    border-radius: 50px;
+    margin-bottom: 150px;
+}
+.actions:hover > .knife-green {
+    transform: translateY(25px);
+}
+.knife-blue {
+    border: 2px solid blue;
+    background-color: gray;
+    box-shadow: 0px 0px 20px blue;
+    border-radius: 50px;
+}
+.actions:hover > .knife-blue {
+    transform: rotate(35deg);
+}
+.knife-red {
+    width: 350px;
+    height: 20px;
+    border: 2px solid red;
+    background-color: gray;
+    box-shadow: 0px 0px 20px red;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.actions:hover > .knife-red {
+    transform: rotate(-35deg);
+}
+.newton {
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.number1 {
+    background-color: blue;
+    animation: number1 6s ease-in infinite reverse;
+}
+
+@keyframes number1 {
+    0% {
+        transform: translate(-0%, -0%);
+    }
+    25% {
+        transform: translate(-80%, -80%);
+    }
+    50% {
+        transform: translate(-0%, -0%);
+    }
+}
+.number2 {
+    background: linear-gradient(to right,blue,#00cfeb);
+}
+.number3 {
+    background-color: #00cfeb;
+}
+.number4 {
+    background-color: #03cae5;
+}
+.number5 {
+    background-color: #02b8d1;
+}
+.number6 {
+    background-color: #039aaf;
+}
+.number7 {
+    background-color: #028aa5;
+    animation: number7 6s 3s ease-in infinite reverse;
+}
+@keyframes number7 {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    25% {
+        transform: translate(80%, -80%);
+    }
+    50% {
+        transform: translate(0%, 0%);
+    }
+}
