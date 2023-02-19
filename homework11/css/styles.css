@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #DBDBDB;
+}
+.one {
+    background-color: #FFFFFF;
+}
+.one-line {
+    background-color: #DBDBDB;
+    height: 1px;
+}
+.text {
+    text-align: center !important;
+    background-image: url(../images/search.svg);
+    background-repeat: no-repeat;
+    background-position: left 33% center;
+    background-size: 5%;
+    width: 216px;
+    height: 29px;
+    border-radius: 3px;
+}
+.text:focus {
+    background-image: none;
+}
+.text::placeholder {
+    color: #8F8F8F;
+}
+.list-one {
+    flex-wrap: nowrap;
+}
+.two {
+    background-color: #FFFFFF;
+}
+.btn-false {
+    width: 33px;
+    height: 29px;
+    background-color:#4094EF;
+    color: #FFFFFF;
+    border-color: #4094EF;
+    border-radius: 3px;
+    padding: 0;
+}
+.btn-follow {
+    width: 97px;
+    height: 29px;
+    border-radius: 3px;
+    padding: 0;
+    background-color:#4094EF;
+    color: #FFFFFF;
+    border-color: #4094EF;
+}
+.dots {
+    font-weight: 900;
+    cursor: pointer;
+    line-height: 20px;
+}
+.insta-link {
+    text-decoration: none;
+}
+.name1 {
+    font-weight: 900;
+    color: #262626;
+}
+.name2 {
+    font-weight: 700;
+    color: #262626;
+}
+.post {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #262626;
+    cursor: pointer;
+}
+.tagg {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8F8F8F;
+    cursor: pointer;
+}
