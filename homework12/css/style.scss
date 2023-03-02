@@ -1,0 +1,165 @@
+@mixin text ($size, $font-color, $weight, $line){
+    font-size: $size;
+    color: $font-color;
+    font-weight: $weight;
+    line-height: $line;
+}
+
+$color: #111B47;
+$border: none;
+$color-2: #FFFFFF;
+
+body{
+    background: $color-2;
+    font-family: 'Roboto', sans-serif;
+}
+.one {
+    background-image: url(../images/designer.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+.head-col-1 a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #505F98;
+}
+.title {
+    @include text(26px, #37447E, 900, 38px)
+}
+.btn-1 {
+    background-color: $color;
+    border-radius: 2px;
+    border: $border;
+    width: 160px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.btn-1:hover, .btn-2:hover {
+    background-color: #111B47;
+    opacity: 0.8;
+}
+.btn-2 {
+    background-color: $color;
+    border: $border;
+    width: 189px;
+    height: 36px;
+    color: $color-2;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.btn-3{
+    width: 189px;
+    height: 36px;
+    border: 2px solid #091133;
+    color: #091133;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    background: none;
+}
+.btn-3:hover {
+    opacity: 0.8;
+}
+.text {
+    @include text(50px, #091133, 600, 66px)
+}
+.text-2 {
+    @include text(18px, #505F98, 600, 30px)
+}
+.box-1 {
+    margin-left: 6%;
+    margin-top: 20%;
+}
+.title-2 {
+    @include text(36px, #091133, 900, 48px)
+}
+.text-form {
+    @include text(16px, #6F7CB2, 400, 26px)
+}
+.title-3 {
+    @include text(16px, #091133, 700, 26px)
+}
+.title-3 {
+    margin-bottom: 0;
+}
+.text-form2 {
+    @include text(12px, #5D6970, 400, 18px)
+}
+.box-2 {
+    margin: 15% 0% 15% 6%;
+}
+.btn-4 {
+    background-color: $color;
+    border: $border;
+    width: 150px;
+    height: 32px;
+    color: $color-2;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.btn-4:hover{
+    background-color: $color;
+    opacity: 0.8;
+}
+.footer-box{
+    background-image: url(../images/Rectangle.png);
+    background-size: cover;
+    padding: 10% 0 10% 0;
+    box-sizing: border-box;
+}
+.price{
+    @include text(16px, #37447E, 400, 26px)
+}
+.btn-center{
+    @include text(14px, #5D6970, 400, 24px)
+}
+.footer-nav{
+    background: #E7ECFF;
+}
+.btn-5{
+    background-color: $color;
+    border: $border;
+    width: 109px;
+    height: 26px;
+    color: $color-2;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+.btn-5:hover{
+    background-color: $color;
+    opacity: 0.8;
+}
+.link-footer a{
+    @include text(14px, #929ECC, 400, 24px)
+}
+.link-footer a{
+    text-decoration: none;
+}
+.underline{
+    height: 2px;
+    background-color: #CDD1D4;
+}
+.light-girl{
+    width: 100%;
+}
+.mention, .influencer, .happy-news{
+    width: 80%;
+}
+@media screen and (max-width: 992px){
+    .mention, .influencer, .happy-news{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 992px){
+    .one{
+        background: none;
+    }
+}
