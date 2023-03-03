@@ -1,0 +1,10 @@
+.download-big10{ 
+    @include btn-bg (#E0E0E0, 5px);
+    @include btn-clr (500, 15px, 18px, #878787);
+}
+.download-big10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,213 @@
+body{
+    background: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 44px 0px 0px 58px;
+}
+.buttons-big_download{
+    display: grid;
+    grid-template-rows: repeat(3, 46px);
+    grid-template-columns: repeat(4, 144px);
+    gap: 20px;
+}
+.buttons-small_download{
+    display: grid;
+    grid-template-rows: repeat(3, 36px);
+    grid-template-columns: repeat(4, 111px);
+    gap: 20px;
+}
+.buttons-big, .buttons-small{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.buttons_title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.buttons-small_download button:hover, .buttons-big_download button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.bottom-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.big-tag{
+    display: grid;
+    grid-template-columns: repeat(2, 65px);
+    grid-template-rows: repeat(1, 28px);
+    gap: 12px;
+}
+.small-tag{
+    display: grid;
+    grid-template-columns: repeat(2, 51px);
+    grid-template-rows: repeat(1, 28px);
+    gap: 25px;
+}
+.big-tag button:hover, .small-tag button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.big-section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.big-section_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.big-search{
+    display: grid;
+    grid-template-columns: repeat(3,56px);
+    grid-template-rows: repeat(1, 48px);
+}
+.big-tab{
+    display: grid;
+    grid-template-columns: repeat(2, 134px);
+    grid-template-rows: repeat(1, 46px);
+}
+.big-letters{
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(1, 46px);
+}
+.big-search button:hover, .big-tab button:hover, .big-letters button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.small-section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.small-section_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.small-tab{
+    display: grid;
+    grid-template-columns: repeat(2, 86px);
+    grid-template-rows: repeat(1, 36px);
+}
+.small-search{
+    display: grid;
+    grid-template-columns: repeat(3, 48px);
+    grid-template-rows: repeat(1, 36px);
+}
+.small-letters{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(1, 36px);
+}
+.small-search button:hover, .small-tab button:hover, .small-letters button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.big-button_search{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.big-button_search svg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+@mixin btn-bg ($bg, $rd){
+    background: $bg;
+    border-radius: $rd;
+}
+@mixin btn-bg-br ($bg, $rd, $br){
+    background: $bg;
+    border-radius: $rd;
+    border: $br;
+}
+@mixin btn-clr ($fw, $fs, $lh, $clr){
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    color: $clr;
+}
+.icon-big1, .icon-sm1{
+    @include btn-bg( #18A0FB, 5px 0px 0px 5px);
+}
+.icon-big2, .icon-sm2{
+    @include btn-bg-br( #ffffff, 0px, 1px solid #e0e0e0);
+}
+.icon-big3, .icon-sm3{
+    @include btn-bg-br( #ffffff, 0px 5px 5px 0px, 1px solid #e0e0e0);
+}
+.big-tab1, .sm-tab1{
+    @include btn-bg( #18A0FB, 5px 0px 0px 5px);
+    @include btn-clr(500, 15px, 18px, #ffffff);
+}
+.big-tab2, .sm-tab2{
+    @include btn-bg-br( #ffffff, 0px 5px 5px 0px, 1px solid #e0e0e0);
+    @include btn-clr(500, 15px, 18px, #2C2C2C);
+}
+.big-s, .small-s{
+    @include btn-bg( #18A0FB, 5px 0px 0px 5px);
+    @include btn-clr(500, 15px, 18px, #ffffff);
+}
+.big-m, .small-m{
+    @include btn-bg-br( #ffffff, 0px, 1px solid #e0e0e0);
+    @include btn-clr(500, 15px, 18px, #2C2C2C);
+}
+.big-l, .small-l{
+    @include btn-bg-br( #ffffff, 0px 5px 5px 0px, 1px solid #e0e0e0);
+    @include btn-clr(500, 15px, 18px, #2C2C2C);
+}
+.tag_close1{
+    @include btn-bg-br(#ffffff, 5px, 1px solid #e0e0e0 );
+    @include btn-clr(500, 13px, 16px, #2C2C2C);
+}
+.tag_close2{
+    @include btn-bg(#18A0FB, 5px);
+    @include btn-clr(500, 13px, 16px, #ffffff);
+}
+.tag_1{
+    @include btn-bg-br(#ffffff, 5px, 1px solid #e0e0e0 );
+    @include btn-clr(500, 13px, 16px, #2C2C2C);
+}
+.tag_2{
+    @include btn-bg(#18A0FB, 5px);
+    @include btn-clr(500, 13px, 16px, #ffffff);
+}
+
+@import "./buttons/download-big1.scss";
+@import "./buttons/download-big2.scss";
+@import "./buttons/download-big3.scss";
+@import "./buttons/download-big4.scss";
+@import "./buttons/download-big5.scss";
+@import "./buttons/download-big6.scss";
+@import "./buttons/download-big7.scss";
+@import "./buttons/download-big8.scss";
+@import "./buttons/download-big9.scss";
+@import "./buttons/download-big10.scss";
+@import "./buttons/download-big11.scss";
+@import "./buttons/download-big12.scss";
+@import "./buttons/download-small1.scss";
+@import "./buttons/download-small2.scss";
+@import "./buttons/download-small3.scss";
+@import "./buttons/download-small4.scss";
+@import "./buttons/download-small5.scss";
+@import "./buttons/download-small6.scss";
+@import "./buttons/download-small7.scss";
+@import "./buttons/download-small8.scss";
+@import "./buttons/download-small9.scss";
+@import "./buttons/download-small10.scss";
+@import "./buttons/download-small11.scss";
+@import "./buttons/download-small12.scss";

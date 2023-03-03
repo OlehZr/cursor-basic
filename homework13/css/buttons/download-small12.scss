@@ -1,0 +1,10 @@
+.download-small12{
+    @include btn-bg-br (#ffffff, 5px, 1px solid #18A0FB);
+    @include btn-clr (500, 13px, 16px, #18A0FB);
+}
+.download-small12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
